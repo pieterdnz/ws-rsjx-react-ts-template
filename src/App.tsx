@@ -20,6 +20,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
+      <h1>Template</h1>
       <Watch name="One" />
       <Watch name="Two" />
       <Delay name="Delay 1" intervalValue={1000} source={source} />
